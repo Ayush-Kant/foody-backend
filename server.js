@@ -42,69 +42,23 @@ app.get("/api/menu/:id", async (req, res) => {
         headers: {
           "User-Agent":
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36",
-          Accept: "application/json",
-          Referer: "https://www.swiggy.com/",
         },
       }
     );
 
-    const cards = response.data?.data?.cards || [];
-
-    const restaurantInfo =
-      cards.find(
-        (c) =>
-          c.card?.card?.["@type"] ===
-          "type.googleapis.com/swiggy.presentation.food.v2.Restaurant"
-      )?.card?.card?.info || {};
-
-    const regularCards =
-      cards.find((c) => c.groupedCard)?.groupedCard?.cardGroupMap?.REGULAR
-        ?.cards || [];
-
-    const categories = regularCards
-      .filter(
-        (c) =>
-          c.card?.card?.["@type"] ===
-          "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
-      )
-      .map((category) => ({
-        title: category.card.card.title,
-
-        itemCards:
-          category.card.card.itemCards?.map((item) => ({
-            id: item.card?.info?.id,
-            name: item.card?.info?.name,
-            description: item.card?.info?.description,
-            imageId: item.card?.info?.imageId,
-
-            price:
-              item.card?.info?.price / 100 ||
-              item.card?.info?.defaultPrice / 100,
-
-            ratings:
-              item.card?.info?.ratings?.aggregatedRating?.rating || null,
-          })) || [],
-      }));
+    const cards = response.data?.data?.cards;
 
     res.json({
-      info: {
-        id: restaurantInfo.id,
-        name: restaurantInfo.name,
-        cuisines: restaurantInfo.cuisines,
-        avgRating: restaurantInfo.avgRating,
-        costForTwo: restaurantInfo.costForTwoMessage,
-        imageId: restaurantInfo.cloudinaryImageId,
-        deliveryTime: restaurantInfo.sla?.deliveryTime,
-      },
-
-      categories,
+      cardsExists: !!cards,
+      cardsLength: cards?.length,
+      firstCard: cards?.[0],
+      keys: Object.keys(response.data || {})
     });
-  } catch (error) {
-    console.error(error.message);
 
+  } catch (error) {
     res.status(500).json({
-      success: false,
       message: error.message,
+      status: error.response?.status
     });
   }
 });
