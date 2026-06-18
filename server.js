@@ -35,27 +35,37 @@ app.get("/api/menu/:id", async (req, res) => {
   try {
     const { id } = req.params;
 
-    const response = await axios.get(
-      `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9715987&lng=77.5945627&restaurantId=${id}`,
-      {
-        headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        },
-      }
-    );
+    console.log("MENU REQUEST:", id);
+
+    const url =
+      `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=${id}`;
+
+    console.log("FETCHING:", url);
+
+    const response = await axios.get(url, {
+      timeout: 10000,
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36",
+        "Accept": "application/json",
+      },
+    });
+
+    console.log("SUCCESS");
 
     res.json(response.data);
   } catch (error) {
+    console.error("MENU ERROR");
+    console.error(error.response?.status);
     console.error(error.message);
 
     res.status(500).json({
       success: false,
+      status: error.response?.status,
       message: error.message,
     });
   }
 });
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
