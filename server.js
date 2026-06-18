@@ -32,10 +32,37 @@ app.get("/api/restaurants", async (req, res) => {
 });
 
 app.get("/api/menu/:id", async (req, res) => {
-  res.json({
-    routeReached: true,
-    id: req.params.id,
-  });
+  try {
+    const { id } = req.params;
+
+    const url =
+      `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=${id}`;
+
+    console.log("REQUESTING:", url);
+
+    const response = await axios.get(url, {
+      timeout: 10000,
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36",
+        "Accept": "application/json",
+      },
+    });
+
+    res.json(response.data);
+
+  } catch (error) {
+
+    console.log("ERROR STATUS:", error.response?.status);
+    console.log("ERROR MESSAGE:", error.message);
+
+    return res.status(500).json({
+      success: false,
+      status: error.response?.status,
+      message: error.message,
+      swiggyData: error.response?.data || null
+    });
+  }
 });
 
 // app.get("/api/menu/:id", async (req, res) => {
