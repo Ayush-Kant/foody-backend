@@ -32,67 +32,77 @@ app.get("/api/restaurants", async (req, res) => {
 });
 
 app.get("/api/menu/:id", async (req, res) => {
-  const { id } = req.params;
-
-  const url = `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=${id}`;
-
-  const delay = (ms) =>
-    new Promise((resolve) => setTimeout(resolve, ms));
-
   try {
-    let responseData = null;
+    const { id } = req.params;
 
-    for (let attempt = 1; attempt <= 10; attempt++) {
-      try {
-        console.log(`Attempt ${attempt}`);
-
-        const response = await axios.get(url, {
-          timeout: 5000,
-          headers: {
-            "User-Agent":
-              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36",
-            Accept: "application/json",
-            Referer: "https://www.swiggy.com/",
-            Origin: "https://www.swiggy.com",
-          },
-        });
-
-        const data = response.data;
-
-        // Check if menu data actually exists
-        if (
-          data &&
-          data.data &&
-          data.data.cards &&
-          data.data.cards.length > 0
-        ) {
-          console.log(`Success on attempt ${attempt}`);
-
-          responseData = data;
-          break;
-        }
-
-        console.log(`Empty response on attempt ${attempt}`);
-      } catch (err) {
-        console.log(
-          `Attempt ${attempt} failed:`,
-          err.response?.status || err.message
-        );
+    const response = await axios.get(
+      `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=${id}`,
+      {
+        timeout: 20000,
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36",
+          Accept: "application/json",
+          Referer: "https://www.swiggy.com/",
+        },
       }
+    );
 
-      await delay(1000);
-    }
+    const cards = response.data?.data?.cards || [];
 
-    if (!responseData) {
-      return res.status(504).json({
-        success: false,
-        message: "Could not fetch menu after 10 attempts",
-      });
-    }
+    const restaurantInfo =
+      cards.find(
+        (c) =>
+          c.card?.card?.["@type"] ===
+          "type.googleapis.com/swiggy.presentation.food.v2.Restaurant"
+      )?.card?.card?.info || {};
 
-    return res.json(responseData);
+    const regularCards =
+      cards.find((c) => c.groupedCard)?.groupedCard?.cardGroupMap?.REGULAR
+        ?.cards || [];
+
+    const categories = regularCards
+      .filter(
+        (c) =>
+          c.card?.card?.["@type"] ===
+          "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+      )
+      .map((category) => ({
+        title: category.card.card.title,
+
+        itemCards:
+          category.card.card.itemCards?.map((item) => ({
+            id: item.card?.info?.id,
+            name: item.card?.info?.name,
+            description: item.card?.info?.description,
+            imageId: item.card?.info?.imageId,
+
+            price:
+              item.card?.info?.price / 100 ||
+              item.card?.info?.defaultPrice / 100,
+
+            ratings:
+              item.card?.info?.ratings?.aggregatedRating?.rating || null,
+          })) || [],
+      }));
+
+    res.json({
+      info: {
+        id: restaurantInfo.id,
+        name: restaurantInfo.name,
+        cuisines: restaurantInfo.cuisines,
+        avgRating: restaurantInfo.avgRating,
+        costForTwo: restaurantInfo.costForTwoMessage,
+        imageId: restaurantInfo.cloudinaryImageId,
+        deliveryTime: restaurantInfo.sla?.deliveryTime,
+      },
+
+      categories,
+    });
   } catch (error) {
-    return res.status(500).json({
+    console.error(error.message);
+
+    res.status(500).json({
       success: false,
       message: error.message,
     });
