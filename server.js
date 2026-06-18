@@ -39,26 +39,30 @@ app.get("/api/menu/:id", async (req, res) => {
       `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=${id}`,
       {
         timeout: 20000,
+        validateStatus: () => true,
         headers: {
           "User-Agent":
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149 Safari/537.36",
-        },
+          Accept: "application/json,text/plain,*/*",
+          Referer: "https://www.swiggy.com/",
+          Origin: "https://www.swiggy.com"
+        }
       }
     );
 
-    const cards = response.data?.data?.cards;
-
     res.json({
-      cardsExists: !!cards,
-      cardsLength: cards?.length,
-      firstCard: cards?.[0],
-      keys: Object.keys(response.data || {})
+      status: response.status,
+      contentType: response.headers["content-type"],
+      dataType: typeof response.data,
+      first500:
+        typeof response.data === "string"
+          ? response.data.slice(0, 500)
+          : JSON.stringify(response.data).slice(0, 500)
     });
-
   } catch (error) {
     res.status(500).json({
       message: error.message,
-      status: error.response?.status
+      code: error.code
     });
   }
 });
