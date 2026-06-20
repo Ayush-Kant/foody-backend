@@ -1,0 +1,4225 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "MTR",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "51843",
+              "name": "MTR",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "mavalli-tiffin-room-mtr-indiranagar-indiranagar",
+                "city": "bangalore"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "iwmwfwi9jzw2hyacwgkf",
+              "locality": "Indiranagar",
+              "areaName": "Indiranagar",
+              "costForTwo": "30000",
+              "costForTwoMessage": "₹300 for two",
+              "cuisines": [
+                "South Indian"
+              ],
+              "avgRating": 4.5,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "51843",
+                "fees": [
+                  {
+
+                  }
+                ]
+              },
+              "parentId": "5689",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "48K+ ratings",
+              "sla": {
+                "restaurantId": "51843",
+                "deliveryTime": 66,
+                "minDeliveryTime": 65,
+                "maxDeliveryTime": 75,
+                "lastMileTravel": 7.4,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 2,
+                "slaString": "65-75 MINS",
+                "lastMileTravelString": "7.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2026-06-19 21:30:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMCC Above ₹600",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMDC Above ₹300",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+
+              },
+              "slugString": "mavalli-tiffin-room-mtr-indiranagar-indiranagar",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "305, 100 Feet Road, Indira Nagar II Stage, Stage 1, Indiranagar, Bengaluru, Karnataka 560037"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "South Indian"
+                }
+              ],
+              "totalRatings": 48000,
+              "aggregatedDiscountInfoV2": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMCC Above ₹600",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off upto ₹75|Use VISAPLATINUMDC Above ₹300",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/51843"
+              },
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {
+
+                      }
+                    },
+                    "linkCta": {
+
+                    }
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {
+
+                },
+                "subTitle": {
+
+                },
+                "message": {
+
+                },
+                "customIcon": {
+
+                },
+                "commsStyling": {
+
+                }
+              },
+              "hasBestsellerItems": true,
+              "nearestOutletNudge": {
+                "nearestOutletInfo": {
+                  "siblingOutlet": {
+                    "id": "49095",
+                    "city": "0",
+                    "slugs": {
+
+                    },
+                    "areaName": "Malleshwaram",
+                    "costForTwo": "0",
+                    "feeDetails": {
+
+                    },
+                    "sla": {
+                      "deliveryTime": 42,
+                      "lastMileTravel": 4.1,
+                      "slaString": "42 MINS",
+                      "lastMileTravelString": "4.1 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "restaurantClosedMeta": {
+
+                      }
+                    },
+                    "aggregatedDiscountInfo": {
+                      "visible": true
+                    },
+                    "badges": {
+
+                    },
+                    "aggregatedDiscountInfoV2": {
+                      "visible": true
+                    },
+                    "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                    "cartOrderabilityNudgeBanner": {
+                      "parameters": {
+
+                      },
+                      "presentation": {
+
+                      }
+                    },
+                    "featuredSectionInfo": {
+
+                    }
+                  }
+                },
+                "nearestOutletComms": {
+                  "title": {
+                    "text": "Get your order 24 min faster"
+                  },
+                  "subTitle": {
+                    "text": "Switch to the faster outlet"
+                  }
+                }
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+
+                },
+                "presentation": {
+
+                }
+              },
+              "latLong": "12.980456,77.6406621",
+              "backgroundImageOverlayInfo": {
+
+              },
+              "featuredSectionInfo": {
+
+              },
+              "timingsInfo": {
+                "status": "Open now",
+                "message": "Closes 9:30 pm",
+                "outletTiming": {
+                  "infoList": [
+                    {
+                      "title": "Monday",
+                      "subtitle": "Closed"
+                    },
+                    {
+                      "title": "Tuesday",
+                      "subtitle": "7.00AM - 9.30PM"
+                    },
+                    {
+                      "title": "Wednesday",
+                      "subtitle": "7.00AM - 9.30PM"
+                    },
+                    {
+                      "title": "Thursday",
+                      "subtitle": "8.00AM - 9.30PM"
+                    },
+                    {
+                      "title": "Friday",
+                      "subtitle": "7.00AM - 9.30PM"
+                    },
+                    {
+                      "title": "Saturday",
+                      "subtitle": "7.00AM - 9.30PM"
+                    },
+                    {
+                      "title": "Sunday",
+                      "subtitle": "7.00AM - 9.00PM"
+                    }
+                  ]
+                }
+              },
+              "phone": "9886894116",
+              "postalCode": "560037",
+              "state": "Karnataka"
+            },
+            "analytics": {
+
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+            "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹75",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/2dcd3eef-bcc5-4f48-9900-56e02ebe6564_Visa.png",
+                      "offerIds": [
+                        "0c89891a-2913-4f63-a3a1-24f0e06be59b"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE VISAPLATINUMCC",
+                      "description": "ABOVE ₹600",
+                      "offerType": "offers",
+                      "restId": "51843",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/2dcd3eef-bcc5-4f48-9900-56e02ebe6564_Visa.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE VISAPLATINUMCC"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹75",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/cbbae0d0-62ae-4172-818a-6d554bfad663_Visa.png",
+                      "offerIds": [
+                        "78d89308-6dc6-478a-a502-e6b5686b0ce9"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE VISAPLATINUMDC",
+                      "description": "ABOVE ₹300",
+                      "offerType": "offers",
+                      "restId": "51843",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/cbbae0d0-62ae-4172-818a-6d554bfad663_Visa.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE VISAPLATINUMDC"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/6d66acda-f6fb-4363-820c-1457d26ec2a4_Axis.png",
+                      "offerIds": [
+                        "c4b55db6-3ab4-4359-8f63-2ce74de95ae8"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AXISREWARDS",
+                      "description": "ABOVE ₹500",
+                      "offerType": "offers",
+                      "restId": "51843",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/6d66acda-f6fb-4363-820c-1457d26ec2a4_Axis.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE AXISREWARDS"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹50",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/339c60c8-d60f-4e00-aa82-96bcaa0a80c5_Visa.png",
+                      "offerIds": [
+                        "fe38f2e8-100b-45e1-97bd-80500a954ed0"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE VISACLASSICDC",
+                      "description": "ABOVE ₹300",
+                      "offerType": "offers",
+                      "restId": "51843",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/339c60c8-d60f-4e00-aa82-96bcaa0a80c5_Visa.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE VISACLASSICDC"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 5% OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/30/a373c82e-d80b-49b4-9f79-4847bffbdf0f_ICICIMenuLogo.png",
+                      "offerIds": [
+                        "4ff43967-9fbd-4c36-8cd7-06c9554ecd66"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE ICICIAPAY",
+                      "description": "ABOVE ₹299",
+                      "offerType": "offers",
+                      "restId": "51843",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/30/a373c82e-d80b-49b4-9f79-4847bffbdf0f_ICICIMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE ICICIAPAY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {
+
+                  }
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {
+
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "South Indian",
+                      "categories": [
+                        {
+                          "title": "Idlis & Vadas",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667329",
+                                  "name": "Curd Vada (1)",
+                                  "category": "South Indian",
+                                  "imageId": "sp7d7iuu5ys1w0zov3qs",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "5322 ratings",
+                                      "ratingCountV2": "5.3K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032289",
+                                  "menuFilterIds": [
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667337",
+                                  "name": "Masala Dosa",
+                                  "category": "South Indian",
+                                  "description": "Serves 1 | Tawa- toasted, crispy and delicious dosa, folded in with masala.",
+                                  "imageId": "agvmb88usldnnt6pwf7l",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 15238,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "20350 ratings",
+                                      "ratingCountV2": "20.4K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032352",
+                                  "menuFilterIds": [
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "15238",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667341",
+                                  "name": "Plain Dosa (1)",
+                                  "category": "South Indian",
+                                  "imageId": "jd9bsss1y4kyjz59bnhx",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 14762,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "6079 ratings",
+                                      "ratingCountV2": "6.1K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "81226108",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "14762",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667318",
+                                  "name": "Rava Idli",
+                                  "category": "South Indian",
+                                  "description": "Steamed semolina cakes made with a mix of yoghurt, coriander, cashew nuts, curry leaves and mustard seeds. Invented by MTR during World War II, when rice was in short supply, the Rava Idli remains our most popular dish to date (Serves 1)",
+                                  "imageId": "izxgkqgffjcozftew8ta",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10476,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "5845 ratings",
+                                      "ratingCountV2": "5.8K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032543",
+                                  "menuFilterIds": [
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_final_price": "0",
+                                    "swiggy_listing_price": "10476"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667324",
+                                  "name": "Button Idli",
+                                  "category": "South Indian",
+                                  "imageId": "shlvz0otybbewuks38yj",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9524,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "14 ratings",
+                                      "ratingCountV2": "14"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032275",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "9524",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667312",
+                                  "name": "Rice Idli (2)",
+                                  "category": "South Indian",
+                                  "imageId": "wznfwyic4vdms7eomwcm",
+                                  "isVeg": 1,
+                                  "price": 11428,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "8309 ratings",
+                                      "ratingCountV2": "8.3K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032568",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11428",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667314",
+                                  "name": "Vada (1)",
+                                  "category": "South Indian",
+                                  "description": "Serves 1 | A deliciously hearty combo with 1 irresistibly crispy vada served with sambar and chutney.",
+                                  "imageId": "wtwrg9pmfh6ylyan0k8q",
+                                  "isVeg": 1,
+                                  "price": 8095,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "9034 ratings",
+                                      "ratingCountV2": "9.0K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032649",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "8095",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667320",
+                                  "name": "Thatte Idli (1)",
+                                  "category": "South Indian",
+                                  "imageId": "b236d6d2e03a5576cee48fd8be86a126",
+                                  "isVeg": 1,
+                                  "price": 9524,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 3:30 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "1103 ratings",
+                                      "ratingCountV2": "1.1K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032640",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "9524",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637133"
+                        },
+                        {
+                          "title": "Dosas",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667357",
+                                  "name": "Rava Dosa",
+                                  "category": "South Indian",
+                                  "imageId": "tpy68deaje6qvsnctbaq",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 16190,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.3",
+                                      "ratingCount": "710 ratings",
+                                      "ratingCountV2": "710"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032539",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "16190",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667370",
+                                  "name": "Onion Dosa",
+                                  "category": "South Indian",
+                                  "description": "Crispy and delicious dosa topped with onions.",
+                                  "imageId": "zltmbtxcwxsw8pi5birf",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 15714,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.2",
+                                      "ratingCount": "907 ratings",
+                                      "ratingCountV2": "907"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032487",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "15714",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667362",
+                                  "name": "Rava Masala Dosa",
+                                  "category": "South Indian",
+                                  "imageId": "xd4tytqekepb4awsxbl9",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 17143,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "1325 ratings",
+                                      "ratingCountV2": "1.3K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032552",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "17143",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667366",
+                                  "name": "Rava Onion Dosa",
+                                  "category": "South Indian",
+                                  "imageId": "isw4prhkymabif6neb7l",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 17143,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "774 ratings",
+                                      "ratingCountV2": "774"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032553",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "17143",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667375",
+                                  "name": "Neer Dosa",
+                                  "category": "South Indian",
+                                  "description": "Dosa made from rice flour, served with jaggery mixed with freshly ground coconut and coconut chutney.",
+                                  "imageId": "a7iomrzzyqd2qt14pdxx",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11429,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "3329 ratings",
+                                      "ratingCountV2": "3.3K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032476",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11429",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667378",
+                                  "name": "Pudi Dosa",
+                                  "category": "South Indian",
+                                  "description": "Dosa made from rice & black gram, topped with chutney powder and spiced potatoes",
+                                  "imageId": "ssu8gj3chthjcsar67v0",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 16190,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.7",
+                                      "ratingCount": "434 ratings",
+                                      "ratingCountV2": "434"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032520",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "16190",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667353",
+                                  "name": "Set Dosa (2)",
+                                  "category": "South Indian",
+                                  "imageId": "ln0rpsn0nn9knglq4bqh",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 12857,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "563 ratings",
+                                      "ratingCountV2": "563"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032624",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "12857",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "13852205",
+                                  "name": "Ragi Dosa",
+                                  "category": "South Indian",
+                                  "description": "Serves 1 | Super-healthy dosa made with ragi batter - a new and healthy breakfast companion!",
+                                  "imageId": "kzgx1ji5my0js1rcku4h",
+                                  "isVeg": 1,
+                                  "price": 12381,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.2",
+                                      "ratingCount": "1064 ratings",
+                                      "ratingCountV2": "1.1K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032528",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "12381",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "13852206",
+                                  "name": "Wheat Dosa",
+                                  "category": "South Indian",
+                                  "imageId": "eoaw3cukuv9nvxwpnbkz",
+                                  "isVeg": 1,
+                                  "price": 12857,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "604 ratings",
+                                      "ratingCountV2": "604"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032679",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "12857",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637135"
+                        },
+                        {
+                          "title": "Bhath",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667401",
+                                  "name": "Khara Bhath",
+                                  "category": "South Indian",
+                                  "description": "(Serves -1)",
+                                  "imageId": "w45qpkwo17q0avsabrfu",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10952,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "4364 ratings",
+                                      "ratingCountV2": "4.4K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032328",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "10952",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667405",
+                                  "name": "Chow Chow Bhath",
+                                  "category": "South Indian",
+                                  "description": "Serves 1 | A wholesome meal comprising of a savoury rava bhath, a sweet kesari bath, and coonut chutney.",
+                                  "imageId": "raatjiy8ttsnvifpvuja",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 18095,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "2525 ratings",
+                                      "ratingCountV2": "2.5K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032285",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "18095",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667409",
+                                  "name": "Bisibele Bhath",
+                                  "category": "South Indian",
+                                  "description": "A rice dish made of lentils, assorted vegetables, nutmeg, cashews, curry leaves and tamarind pulp. Served with raitha made from curds and onions.(Serves -1)",
+                                  "imageId": "wnenaiyhlczkkrh8zn8l",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 12381,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "6234 ratings",
+                                      "ratingCountV2": "6.2K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032272",
+                                  "menuFilterIds": [
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "12381",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667414",
+                                  "name": "Shavige Bhath",
+                                  "category": "South Indian",
+                                  "imageId": "yofptkkghhebpbg6n96i",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "462 ratings",
+                                      "ratingCountV2": "462"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032636",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "103974175",
+                                  "name": "Pongal                  ",
+                                  "category": "South Indian",
+                                  "imageId": "iigej83vgkipe26l1ben",
+                                  "isVeg": 1,
+                                  "price": 11429,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "592 ratings",
+                                      "ratingCountV2": "592"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032517",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11429",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637145"
+                        },
+                        {
+                          "title": "Snacks",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667308",
+                                  "name": "Bonda Soup",
+                                  "category": "South Indian",
+                                  "imageId": "asutvnclqy57kncwjvl4",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "726 ratings",
+                                      "ratingCountV2": "726"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032273",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "13294269",
+                                  "name": "Pav Bhaji",
+                                  "category": "South Indian",
+                                  "imageId": "frez0v7qe8q04lg3cyqj",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 15714,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "313 ratings",
+                                      "ratingCountV2": "313"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032507",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "15714",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "13294270",
+                                  "name": "Veg Sandwich ",
+                                  "category": "South Indian",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 15714,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "113 ratings",
+                                      "ratingCountV2": "113"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032668",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "15714",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "147900120",
+                                  "name": "Cutlet (2)",
+                                  "category": "South Indian",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/10/ad7d3459-a72b-4483-bf86-289bf242adc1_e19df840-a2a5-44e2-b4c2-a2e119f9df30.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 13334,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "28 ratings",
+                                      "ratingCountV2": "28"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "87562303",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "13334",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "13294271",
+                                  "name": "Mangalore Buns",
+                                  "category": "South Indian",
+                                  "description": "Soft, fluffy, mildly sweet buns made using bananas and flour.",
+                                  "imageId": "sb8kipap9sltygwq1zxj",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10000,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.5",
+                                      "ratingCount": "2780 ratings",
+                                      "ratingCountV2": "2.8K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032349",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "10000",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637131"
+                        },
+                        {
+                          "title": "Rice",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667429",
+                                  "name": "Curd Rice",
+                                  "category": "South Indian",
+                                  "description": "(Serves -1)",
+                                  "imageId": "ylnf3m9ibn5ph3zqi9mr",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.7",
+                                      "ratingCount": "2328 ratings",
+                                      "ratingCountV2": "2.3K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032288",
+                                  "menuFilterIds": [
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667427",
+                                  "name": "Lemon Rice",
+                                  "category": "South Indian",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 12:30 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "60 ratings",
+                                      "ratingCountV2": "60"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032336",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_final_price": "0",
+                                    "swiggy_listing_price": "11905"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667422",
+                                  "name": "Pudina Rice",
+                                  "category": "South Indian",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 12:30 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.7",
+                                      "ratingCount": "60 ratings",
+                                      "ratingCountV2": "60"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032521",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "104538615",
+                                  "name": "Vangi Bhath ",
+                                  "category": "South Indian",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 12:30 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "25 ratings",
+                                      "ratingCountV2": "25"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032656",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667425",
+                                  "name": "Pulao",
+                                  "category": "South Indian",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 10:30 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "164 ratings",
+                                      "ratingCountV2": "164"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032522",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667420",
+                                  "name": "Rice Bath",
+                                  "category": "South Indian",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 7 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.9",
+                                      "ratingCount": "87 ratings",
+                                      "ratingCountV2": "87"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032564",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667417",
+                                  "name": "Puliyogare",
+                                  "category": "South Indian",
+                                  "description": "A traditional South Indian rice dish made with tamarind and peanuts, served with chutney.",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 10:30 am, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.3",
+                                      "ratingCount": "232 ratings",
+                                      "ratingCountV2": "232"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032525",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "104538536",
+                                  "name": "Tomato Rice ",
+                                  "category": "South Indian",
+                                  "imageId": "e35gq35wkaqvn7yykskd",
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "nextAvailableAtMessage": "Next available at 12:30 pm, tomorrow",
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.2",
+                                      "ratingCount": "141 ratings",
+                                      "ratingCountV2": "141"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032642",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637147"
+                        },
+                        {
+                          "title": "Poori ",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667392",
+                                  "name": "Poori (2)",
+                                  "category": "South Indian",
+                                  "imageId": "iqavhn0jprcmjiyernxw",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 12857,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.2",
+                                      "ratingCount": "2293 ratings",
+                                      "ratingCountV2": "2.3K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032518",
+                                  "menuFilterIds": [
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "12857",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637164"
+                        },
+                        {
+                          "title": "Akki Roti",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667383",
+                                  "name": "Akki Roti",
+                                  "category": "South Indian",
+                                  "imageId": "pdrkbd3ur3lyvzokr0qe",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "1772 ratings",
+                                      "ratingCountV2": "1.8K+"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "29032256",
+                                  "menuFilterIds": [
+                                    "bestseller",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "11905",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637137"
+                        },
+                        {
+                          "title": "White Upma",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "12667387",
+                                  "name": "White Upma",
+                                  "category": "South Indian",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/29/411eb230-6bc1-4c30-b341-f23d9c3789c8_60e4c1a0-5a21-4652-a68b-d6d90f38d83e.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10952,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "47 ratings",
+                                      "ratingCountV2": "47"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
+                                    }
+                                  ],
+                                  "parentId": "29032680",
+                                  "menuFilterIds": [
+                                    "EATRIGHT",
+                                    "VEG",
+                                    "toprated"
+                                  ],
+                                  "priceComparisonComms": {
+
+                                  },
+                                  "instrumentationMetaMap": {
+                                    "swiggy_listing_price": "10952",
+                                    "swiggy_final_price": "0"
+                                  }
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "1637139"
+                        }
+                      ],
+                      "image": "tpy68deaje6qvsnctbaq",
+                      "categoryId": "1637125"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Meals",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "79048512",
+                              "name": "Rasam Rice And Palya",
+                              "category": "Meals",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "446 ratings",
+                                  "ratingCountV2": "446"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "40195131",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_final_price": "0",
+                                "swiggy_listing_price": "11500"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "79048511",
+                              "name": "Sambar Rice And Palya",
+                              "category": "Meals",
+                              "imageId": "scpgyfckgbwq6nyegucm",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "510 ratings",
+                                  "ratingCountV2": "510"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "40195132",
+                              "menuFilterIds": [
+                                "bestseller",
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "11500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "54618188",
+                              "name": "Swiggy Special Meal",
+                              "category": "Meals",
+                              "description": "Poori(2),saagu,payasam,rice,palya,rasam,sambar,papad,curd rice & pickle.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 24000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "1468 ratings",
+                                  "ratingCountV2": "1.5K+"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032638",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_final_price": "0",
+                                "swiggy_listing_price": "24000"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667431",
+                              "name": "Rasam Rice",
+                              "category": "Meals",
+                              "imageId": "in6bskq5bnggrj3rj0pi",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "1004 ratings",
+                                  "ratingCountV2": "1.0K+"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032537",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "11000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667435",
+                              "name": "Sambar Rice",
+                              "category": "Meals",
+                              "imageId": "jxksq9uxu1aljjyosmbm",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "1105 ratings",
+                                  "ratingCountV2": "1.1K+"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032620",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "11000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "scpgyfckgbwq6nyegucm",
+                      "categoryId": "1637127"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Desserts",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667437",
+                              "name": "Kesari Bhath",
+                              "category": "Desserts",
+                              "description": "(Serves 1)",
+                              "imageId": "pjifcocjn73vgsf48cp8",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10476,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "4901 ratings",
+                                  "ratingCountV2": "4.9K+"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032321",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "10476",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667439",
+                              "name": "Jamoon (1)",
+                              "category": "Desserts",
+                              "imageId": "ryhqcgel8iqud0kchtto",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7619,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "47 ratings",
+                                  "ratingCountV2": "47"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "78325406",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "7619",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667440",
+                              "name": "Badam Halwa",
+                              "category": "Desserts",
+                              "description": "A gelatinous dessert made from khoa, crushed almonds, ghee (clarified butter) & saffron.(Serves -1)",
+                              "imageId": "kuutdnln6ywft9aapw6e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "3656 ratings",
+                                  "ratingCountV2": "3.7K+"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032268",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "10000",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667443",
+                              "name": "Fruit Mixture (with Ice cream)",
+                              "category": "Desserts",
+                              "description": "A delectable mixture of fresh fruits, complimented with a scoop of our trademark American ice cream.",
+                              "imageId": "lymkfpbguycrskheighx",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18571,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "411 ratings",
+                                  "ratingCountV2": "411"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032308",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "18571",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "12667444",
+                              "name": "Payasa (360 ml)",
+                              "category": "Desserts",
+                              "imageId": "xycmgijjlyxjpbjthsu3",
+                              "isVeg": 1,
+                              "price": 8500,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "nextAvailableAtMessage": "Next available at 12:30 pm, tomorrow",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "548 ratings",
+                                  "ratingCountV2": "548"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032513",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_listing_price": "8500",
+                                "swiggy_final_price": "0"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "pjifcocjn73vgsf48cp8",
+                      "categoryId": "1637128"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Beverages",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "59233615",
+                              "name": "Raw Pressery Coconut Water 200ml",
+                              "category": "Beverages",
+                              "description": "Every athletes go to natural energy drink; coconut water is a complete win-win for your everyday rehydration needs. #iaminlovewiththecoco!",
+                              "imageId": "sabnujtioqqu6zlwl46k",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6666,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "331 ratings",
+                                  "ratingCountV2": "331"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "29032555",
+                              "menuFilterIds": [
+                                "VEG",
+                                "toprated"
+                              ],
+                              "priceComparisonComms": {
+
+                              },
+                              "instrumentationMetaMap": {
+                                "swiggy_final_price": "0",
+                                "swiggy_listing_price": "6666"
+                              }
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "sabnujtioqqu6zlwl46k",
+                      "categoryId": "11476158"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 11218333000129"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "MTR",
+                      "area": "Indiranagar",
+                      "completeAddress": "305, 100 Feet Road, Indira Nagar II Stage, Stage 1, Indiranagar, Bengaluru, Karnataka 560037"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODE4ODQ4MjIsImlhdCI6MTc4MTg4MTIyMiwic2Vzc2lvbl9kYXRhIjoiTmpUZ2lXR1l1WlFJekQ5cThUZTNFSUhkVVJ4ZHN2Q2R3U0FLUkxyRGxNbUtpT202OC96TmwwUVNmNXZ0bG5CNWVlMit3ZlNSY2xpVEtVL3hiL3d5V3BTL0pRQUxBWmRYVVVoTnhHbU11ZFhKZ1RvSG5OTHY4QXRjL1NSK0VENTRqUGE0aFVKMzdzdVpYeW1maEVHdm40ekY4YVhKNzZBNXYycDIybkF0TlVVb0t1V2ROc2F4ZjZ1ZTFZMVVBMEFRaWZiSGUwci9RaCt2TG53MnpLVmRVUT09Iiwic2lkIjoiczBrNzFjZWI3OTEtNjcyMC00YmExLWE1MGItNTAzNzBkMjIwIiwic3ViIjoiMDY2NzIzOWYtYmMyZS00Y2ZmLTg3YjctNjMyYTBkMjM5MGRmIiwidXNlcl9pZCI6IjAifQ.-aYArDKB-azL5dadWUWgc7lc5KgLWXbvtSHL7F7Rsuc",
+  "sid": "s0k71ceb791-6720-4ba1-a50b-50370d220",
+  "deviceId": "18c1fb8b-2f03-1e8c-0f57-80a9fc3d4b5a",
+  "csrfToken": "AhjZ6LNmYxAu-_qUTc2e04iujjCHKbhJaOZBdTDc"
+}
